@@ -1,0 +1,3 @@
+WakeTask Prototype Update
+Version: 2026-10-24-follow-up-audit-v2
+Source base: user-provided WakeTask_Responsive_Mission_CodeLab.zip

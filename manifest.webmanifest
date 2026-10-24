@@ -1,0 +1,17 @@
+{
+  "name": "WakeTask \u2014 Your time, your terms",
+  "short_name": "WakeTask",
+  "description": "Turn an alarm or prompt into action with a small task.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c1010",
+  "theme_color": "#0c1010",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">WakeTask alarm clock with a check mark</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#063a35"/><stop offset="1" stop-color="#061c24"/></linearGradient>
+    <linearGradient id="clock" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#bdeef0"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43ff9b"/><stop offset="1" stop-color="#00cfa0"/></linearGradient>
+    <linearGradient id="swoosh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00bfa5"/><stop offset=".55" stop-color="#38ff9b"/><stop offset="1" stop-color="#00a8ad"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff15a"/><stop offset="1" stop-color="#ffb900"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="128" height="128" rx="27" fill="url(#bg)"/>
+  <path d="M13 113C31 98 54 99 81 88c15-6 27-5 33 0-11 10-26 12-38 18-15 7-32 10-47 13 22-2 42-5 60-11-15 12-38 17-64 15Z" fill="url(#swoosh)" opacity=".95"/>
+  <g fill="url(#sun)" stroke="#ffda2e" stroke-width="1.5" stroke-linecap="round">
+    <path d="M94 16l-4 13" stroke-width="6"/><path d="M108 29L98 36" stroke-width="6"/><path d="M111 45l-12-2" stroke-width="6"/>
+  </g>
+  <g filter="url(#shadow)" fill="url(#clock)" stroke="#e8ffff" stroke-linejoin="round">
+    <path d="M34 39C24 31 29 22 39 24c6 1 10 7 13 13l-7 8Z" stroke-width="1"/>
+    <path d="M80 37c5-10 13-14 19-9 6 5 1 13-7 19Z" stroke-width="1"/>
+    <rect x="56" y="13" width="16" height="9" rx="4.5" stroke="none"/>
+    <path d="M61 20v7h6v-7" stroke="none"/>
+    <circle cx="64" cy="62" r="34" stroke-width="1.4"/>
+    <path d="M42 88l-6 9M84 88l7 9" fill="none" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <circle cx="64" cy="62" r="25.5" fill="#062b2d"/>
+  <path d="M48 62l10 10 22-23" fill="none" stroke="url(#green)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
